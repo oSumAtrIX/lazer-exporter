@@ -1,0 +1,22 @@
+{
+  "name": "lazer-exporter",
+  "version": "1.0.0",
+  "description": "Export beatmaps from osu!lazer",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "oSumAtrIX",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "realm": "^10.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oSumAtrIX/lazer-exporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oSumAtrIX/lazer-exporter/issues"
+  },
+  "homepage": "https://osumatrix.me"
+}
