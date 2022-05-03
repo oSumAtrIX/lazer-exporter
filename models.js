@@ -8,6 +8,7 @@ exports.Beatmap = {
 		Difficulty: "BeatmapDifficulty",
 		Metadata: "BeatmapMetadata",
 		BeatmapSet: "BeatmapSet",
+		UserSettings: "BeatmapUserSettings",
 		Status: "int",
 		Length: "double",
 		BPM: "double",
@@ -29,6 +30,14 @@ exports.Beatmap = {
 		OnlineID: { type: "int", indexed: true },
 		CountdownOffset: "int",
 	},
+};
+
+exports.BeatmapUserSettings = {
+	name: "BeatmapUserSettings",
+	embedded: true,
+	properties: {
+		Offset: "double",
+	}
 };
 
 exports.BeatmapDifficulty = {
