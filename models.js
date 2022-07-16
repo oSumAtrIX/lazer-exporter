@@ -23,6 +23,7 @@ exports.Beatmap = {
 		WidescreenStoryboard: "bool",
 		EpilepsyWarning: "bool",
 		SamplesMatchPlaybackRate: "bool",
+		LastPlayed: "date?",
 		DistanceSpacing: "double",
 		BeatDivisor: "int",
 		GridSize: "int",
