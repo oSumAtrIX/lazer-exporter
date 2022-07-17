@@ -27,7 +27,7 @@ const Realm = require("realm");
 			models.RealmUser,
 			models.BeatmapUserSettings
 		],
-		schemaVersion: 14,
+		schemaVersion: 16,
 	});
 
 	if (!fs.existsSync("exports")) fs.mkdirSync("exports");
